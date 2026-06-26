@@ -27,7 +27,7 @@ It is written to fail safely:
 - If the expected pattern isn't found (e.g. the bundle changed), it logs a clear error and returns the **original** response unchanged. The patch simply goes inactive rather than breaking the page.
 - Any error falls back to the original response.
 
-### `_Chzzk_Live_Latency_Inspector.js`
+### `Chzzk_Live_Latency_Inspector.js`
 
 This is the larger of the two. It watches playback health and gently corrects sync drift in real time, instead of making a one-time change.
 
